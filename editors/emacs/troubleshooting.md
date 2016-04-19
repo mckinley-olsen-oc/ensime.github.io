@@ -16,7 +16,7 @@ Most problems can be resolved easily by following a simple process. Please do no
 7. nuke old versions of the ENSIME server (and possibly SNAPSHOT deps)
    - `rm -rf ~/.ivy2/cache/org.ensime`
    - `rm -rf ~/.ivy2/local/`
-   - `rm -rf ~/.emacs.d/ensime`
+   - `rm -rf ~/.emacs.d/.cache/ensime`
    and restart Emacs.
 
 If that solved your problem, great!
